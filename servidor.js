@@ -8,9 +8,13 @@ app.get("/", function(req, res) {
 });
 
 app.get("/nomesaleatorios", function(req, res) {
-    tamanho = nomesaleatorios.length
+    letraescolhida = "l"
+    const filtronomeletra = nomesaleatorios.filter(function(nome) {
+        return nome[0] == letraescolhida
+    })
+    tamanho = filtronomeletra.length
     numal = Math.floor(Math.random() * tamanho)
-    nome = nomesaleatorios[numal]
+    nome = filtronomeletra[numal]
     res.send({ "nome": nome, numal, tamanho });
 });
 
