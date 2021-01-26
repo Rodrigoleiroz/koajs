@@ -1,0 +1,22 @@
+{
+  "name": "baseapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigoleiroz/koajs.git"
+  },
+  "author": "rodrigoleiroz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigoleiroz/koajs/issues"
+  },
+  "homepage": "https://github.com/Rodrigoleiroz/koajs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
